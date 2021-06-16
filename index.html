@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap login trial</title>
-    <!--- Bootstrap -->
 
+
+    <!--- Bootstrap -->
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
 
@@ -26,72 +26,58 @@
 
 <body>
 
-
-    <div class="container p50 bg-dark">
-        <h1 class="bg-success">Welcome to geo world</h1>
-        <p class="fs-2 text-light">Digitalmarketer/Webdeveloper</p>
-    </div>
-
-
-    <div class="container bg-white height-500 px-5">
-        <h3 class="text-primary">Welcome to geo world
-            <small class="text-muted">(Entrepreneur)</small>
-        </h3>
-        <p class="fs-3">Am here to learn about bootstrap. Intern in digisailor company as a digitalmarketer and webdeveloper. Currently learning bootstrap.
-            This is my sample bootstrap page.
-        </p>
-
-        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" 
-        alt="Responsive images" class="img-fluid rounded">
-
-        <div class="d-grid gap-2 col-6 mx-auto">
-            <button class="btn btn-primary" type="button">Welcome</button>
-          </div>
-
-        <table class="table table-bordered bg-dark text-white table-hover text-center">
-            <thead class="bg-success">
-
-                <tr>
-                    <th>#ID</th>
-                    <th>Name</th>
-                    <th>Course</th>
-                </tr>
-
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Maria</td>
-                    <td>HTML 5 course</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Geovi</td>
-                    <td>Javascript course</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>kamaly</td>
-                    <td>CSS3 course</td>
-                </tr>
-
-            </tbody>
-        </table>
-
-        <div class="table-responsive">
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+            <div class="container">
 
 
-            <table class="table table-bordered bg-dark text-white table-hover text-center">
-                <thead class="bg-success">
+                <a href="/" class="navbar-brand">
+                    <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="Bootstrap"
+                        width="30" height="24" loading="lazy" class="d-inline-block align-middle">
+                    Bootstrap learning</a>
 
-                    </tr>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                </thead>
-                
-            </table>
-        </div>
 
-    </div>
+                <div class="collapse navbar-collapse" id="myNavBar">
+                    <ul class="navbar-nav ms-auto mr-auto smooth-scroll">
+                        <li class="nav-item">
+                            <a href="/index.html" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Help
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Facebook</a></li>
+                                <li><a class="dropdown-item" href="#">Youtube</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Github</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/index.html" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/index.html" class="nav-link">Contact</a>
+                        </li>
+                        </u1>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- End Header -->
 
 
     <!-- Bootstrap JS-->
